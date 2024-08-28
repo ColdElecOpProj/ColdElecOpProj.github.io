@@ -8,8 +8,8 @@ body {
 }
 
 .header-container {
-    background-color: #008080;
-    color: #fff;
+    background-color: #0000FF;
+    color: #000000;
     padding: 20px 0;
     text-align: center;
     display: flex;
@@ -35,7 +35,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #0000FF;
     text-decoration: none;
 }
 
@@ -52,16 +52,16 @@ main {
 }
 
 h1 {
-    color: #fff;
+    color: #000000;
 }
 
 h2 {
-    color: #008080;
+    color: #0000FF;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background: #008080;
-    color: #fff;
+    background: #0000FF;
+    color: #000000;
 }
