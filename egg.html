@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cold Electricity Open Project</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      overflow: hidden;
+      font-family: monospace;
+    }
+    canvas {
+      display: block;
+    }
+    .centered-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 2em;
+      font-weight: bold;
+      color: blue;
+      text-shadow: 0 0 15px blue, 0 0 30px blue, 0 0 50px white;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+    .lamp {
+      position: absolute;
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 3em;
+      color: white;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="lightningCanvas"></canvas>
+  <div class="centered-text" id="projectText">Cold Electricity Open Project</div>
+  <div class="lamp" id="lampSymbol">-||-••-📡)))📡-💡-💻-</div>
+  <script>
+    const canvas = document.getElementById('lightningCanvas');
+    const ctx = canvas.getContext('2d');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    // Function to draw a single segment of lightning
+    function drawLightningSegment(startX, startY, endX, endY, branchFactor) {
+      ctx.strokeStyle = 'blue';
+      ctx.lineWidth = 3;
+      ctx.shadowBlur = 25;
+      ctx.shadowColor = 'blue';
+
+      ctx.beginPath();
+      ctx.moveTo(startX, startY);
+      ctx.lineTo(endX, endY);
+      ctx.stroke();
+
+      // Recursively draw branches
+      if (branchFactor > 0) {
+        const branchCount = Math.floor(Math.random() * 2) + 1; // 1-2 branches
+        for (let i = 0; i < branchCount; i++) {
+          const angle = Math.random() * Math.PI / 4 - Math.PI / 8; // Slight angle
+          const length = Math.random() * 50 + 50; // Branch length
+          const branchX = endX + length * Math.cos(angle);
+          const branchY = endY + length * Math.sin(angle);
+          drawLightningSegment(endX, endY, branchX, branchY, branchFactor - 1);
+        }
+      }
+    }
+
+    // Function to animate the lightning
+    function animateLightning() {
+      let startX = 0;
+      let startY = Math.random() * canvas.height / 3; // Top third of the screen
+      let currentX = startX;
+      let currentY = startY;
+
+      const steps = 10;
+      const stepSize = canvas.width / steps;
+
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      for (let i = 0; i < steps; i++) {
+        const nextX = currentX + stepSize;
+        const nextY = currentY + (Math.random() * 100 - 50); // Random vertical offset
+        drawLightningSegment(currentX, currentY, nextX, nextY, 3); // 3 levels of branching
+        currentX = nextX;
+        currentY = nextY;
+      }
+    }
+
+    // Function to draw circuit symbols
+    function drawCircuitSymbols() {
+      const symbols = ['⚡', '⊖', '⊕', '⎎', '⏚', '-||-', '-===-', '-••-', '-(M)-', 'C=1pF', 'I=0A', 'R=-200GΩ', 'U=4kV', 'd=1mm'];
+      const numSymbols = 50;
+      ctx.font = '20px monospace';
+      ctx.fillStyle = 'white';
+
+      for (let i = 0; i < numSymbols; i++) {
+        const symbol = symbols[Math.floor(Math.random() * symbols.length)];
+        const x = Math.random() * canvas.width;
+        const y = Math.random() * canvas.height;
+        ctx.fillText(symbol, x, y);
+      }
+    }
+
+    // Show the glowing text and lamp
+    function showTextAndLamp() {
+      const text = document.getElementById('projectText');
+      const lamp = document.getElementById('lampSymbol');
+      text.style.opacity = 1;
+      lamp.style.opacity = 1;
+    }
+
+    // Redirect to index.html after animation
+    function redirectToIndex() {
+      setTimeout(() => {
+        window.location.href = 'index.html';
+      }, 1000); // Wait 1 second before redirecting
+    }
+
+    // Main animation sequence
+    function animate() {
+      let frame = 0;
+      const frames = 10; // Number of lightning frames
+
+      const lightningInterval = setInterval(() => {
+        animateLightning();
+        frame++;
+        if (frame >= frames) {
+          clearInterval(lightningInterval);
+          drawCircuitSymbols();
+          showTextAndLamp();
+          redirectToIndex(); // Trigger redirect after animation ends
+        }
+      }, 200); // Lightning interval
+    }
+
+    // Start animation after 1 second
+    setTimeout(animate, 1000);
+  </script>
+</body>
+</html>
