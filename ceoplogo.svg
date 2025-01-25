@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ceoplogo 2</title>
+    <g id="ceoplogo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <g id="frame2">
+                <g id="frame">
+                    <circle id="circle1" stroke="#0000FF" stroke-width="5" fill-opacity="0" fill="#000000" cx="128" cy="128" r="125.5"></circle>
+                    <circle id="circle2" stroke="#0000FF" stroke-width="5" fill-opacity="0" fill="#000000" cx="128.406824" cy="128.397629" r="95"></circle>
+                    <g id="text" transform="translate(0.2756, 50)" fill="#0000FF" fill-rule="nonzero" font-family="Helvetica" font-size="26" font-weight="normal">
+                        <text id="C" transform="translate(33.8683, 22.1695) rotate(112) translate(-33.8683, -22.1695)">
+                            <tspan x="24.4801599" y="30.2700102">C</tspan>
+                        </text>
+                        <text id="O" transform="translate(24.1611, 40.6439) rotate(110) translate(-24.1611, -40.6439)">
+                            <tspan x="14.0492808" y="48.7443439">O</tspan>
+                        </text>
+                        <text id="L" transform="translate(19.1692, 60.5436) rotate(101) translate(-19.1692, -60.5436)">
+                            <tspan x="11.9392134" y="68.6440994">L</tspan>
+                        </text>
+                        <text id="D" transform="translate(18.1374, 77.4969) rotate(93) translate(-18.1374, -77.4969)">
+                            <tspan x="8.7492401" y="85.5974283">D</tspan>
+                        </text>
+                        <text id="E" transform="translate(21.1291, 103.6794) rotate(77) translate(-21.1291, -103.6794)">
+                            <tspan x="12.4581743" y="111.779915">E</tspan>
+                        </text>
+                        <text id="L" transform="translate(26.1165, 118.6818) rotate(69) translate(-26.1165, -118.6818)">
+                            <tspan x="18.8865584" y="126.782276">L</tspan>
+                        </text>
+                        <text id="E" transform="translate(33.1395, 132.7503) rotate(60) translate(-33.1395, -132.7503)">
+                            <tspan x="24.4685906" y="140.850788">E</tspan>
+                        </text>
+                        <text id="C" transform="translate(42.2638, 147.8404) rotate(49) translate(-42.2638, -147.8404)">
+                            <tspan x="32.8756061" y="155.940899">C</tspan>
+                        </text>
+                        <text id="T" transform="translate(54.186, 158.8005) rotate(42) translate(-54.186, -158.8005)">
+                            <tspan x="46.2450585" y="166.900956">T</tspan>
+                        </text>
+                        <text id="R" transform="translate(68.1343, 170.7216) rotate(34) translate(-68.1343, -170.7216)">
+                            <tspan x="58.7461366" y="178.822075">R</tspan>
+                        </text>
+                        <text id="I" transform="translate(80.1931, 177.7517) rotate(26) translate(-80.1931, -177.7517)">
+                            <tspan x="76.5812756" y="185.852225">I</tspan>
+                        </text>
+                        <text id="C" transform="translate(93.2508, 182.7827) rotate(18) translate(-93.2508, -182.7827)">
+                            <tspan x="83.8626246" y="190.883203">C</tspan>
+                        </text>
+                        <text id="I" transform="translate(107.2977, 185.8106) rotate(10) translate(-107.2977, -185.8106)">
+                            <tspan x="103.685895" y="193.911067">I</tspan>
+                        </text>
+                        <text id="T" transform="translate(119.1561, 187.7796) rotate(6) translate(-119.1561, -187.7796)">
+                            <tspan x="111.215192" y="195.880087">T</tspan>
+                        </text>
+                        <text id="Y" transform="translate(138.318, 187.7796) rotate(-6) translate(-138.318, -187.7796)">
+                            <tspan x="129.64708" y="195.880087">Y</tspan>
+                        </text>
+                        <text id="O" transform="translate(164.3512, 181.773) rotate(-20) translate(-164.3512, -181.773)">
+                            <tspan x="154.239368" y="189.873475">O</tspan>
+                        </text>
+                        <text id="P" transform="translate(183.1968, 172.8619) rotate(-28) translate(-183.1968, -172.8619)">
+                            <tspan x="174.525889" y="180.962378">P</tspan>
+                        </text>
+                        <text id="E" transform="translate(199.2703, 161.8293) rotate(-39) translate(-199.2703, -161.8293)">
+                            <tspan x="190.599419" y="169.929788">E</tspan>
+                        </text>
+                        <text id="N" transform="translate(213.3225, 146.8233) rotate(-50) translate(-213.3225, -146.8233)">
+                            <tspan x="203.93429" y="154.923779">N</tspan>
+                        </text>
+                        <text id="P" transform="translate(227.3592, 124.786) rotate(-64) translate(-227.3592, -124.786)">
+                            <tspan x="218.688327" y="132.886451">P</tspan>
+                        </text>
+                        <text id="R" transform="translate(233.3966, 106.7729) rotate(-74) translate(-233.3966, -106.7729)">
+                            <tspan x="224.008399" y="114.873412">R</tspan>
+                        </text>
+                        <text id="O" transform="translate(237.389, 86.7961) rotate(-84) translate(-237.389, -86.7961)">
+                            <tspan x="227.277175" y="94.8965418">O</tspan>
+                        </text>
+                        <text id="J" transform="translate(237.4049, 70.7371) rotate(-93) translate(-237.4049, -70.7371)">
+                            <tspan x="230.904911" y="78.8376228">J</tspan>
+                        </text>
+                        <text id="E" transform="translate(235.3791, 53.6515) rotate(-103) translate(-235.3791, -53.6515)">
+                            <tspan x="226.70824" y="61.7519748">E</tspan>
+                        </text>
+                        <text id="C" transform="translate(229.3751, 36.5923) rotate(-113) translate(-229.3751, -36.5923)">
+                            <tspan x="219.986937" y="44.6928163">C</tspan>
+                        </text>
+                        <text id="T" transform="translate(221.331, 20.5449) rotate(-123) translate(-221.331, -20.5449)">
+                            <tspan x="213.390036" y="28.6453554">T</tspan>
+                        </text>
+                    </g>
+                </g>
+                <line x1="128.5" y1="129.5" x2="128.5" y2="222.5" id="L1" stroke="#0000FF" stroke-width="3" stroke-linecap="square"></line>
+                <line x1="136.029504" y1="84.7869318" x2="130.384289" y2="129.213068" id="L2" stroke="#0000FF" stroke-width="3" stroke-linecap="square" transform="translate(133.2069, 107) rotate(6.6678) translate(-133.2069, -107)"></line>
+                <line x1="111.75" y1="85.5" x2="136.5" y2="85.5" id="L3" stroke="#0000FF" stroke-width="3" stroke-linecap="square"></line>
+                <polyline id="L4" stroke="#0000FF" stroke-width="3" stroke-linecap="square" points="139.5 67 136.719582 73.8828182 156 73.8828182 126 130"></polyline>
+                <line x1="123.5" y1="35.5" x2="111.769231" y2="85.5" id="L5" stroke="#0000FF" stroke-width="3" stroke-linecap="square"></line>
+                <line x1="151.132708" y1="35.3801967" x2="141.562839" y2="64.5133934" id="L6" stroke="#0000FF" stroke-width="3" stroke-linecap="square" transform="translate(146.5628, 50.0134) rotate(3.8153) translate(-146.5628, -50.0134)"></line>
+                <path d="M41.5,169.5 C101.421647,115.78113 160.208157,117.099839 215.5,169.5" id="L7" stroke="#0000FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M128.5,129.5 C118.75762,135.734727 109.924286,144.309382 102,155.223965 C94.0757137,166.138548 85.2423804,181.897226 75.5,202.5" id="L8" stroke="#0000FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M128.5,129.5 C135.326575,130.90322 143.192003,137.737024 152.096286,150.001414 C161.000569,162.265804 170.801807,179.765332 181.5,202.5" id="L9" stroke="#0000FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M172.5,140.5 C155.635254,149.992279 138.497276,154.517247 121.014458,152.773115 C109.337258,151.608167 97.5062181,147.646429 85.5,140.5" id="L10" stroke="#0000FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M206.5,163.5 C152.811254,201.215329 100.845082,200.459843 50.5,163.5" id="L11" stroke="#0000FF" stroke-width="3" stroke-linecap="square" stroke-linejoin="round"></path>
+            </g>
+            <circle id="C" fill="#0000FF" cx="128" cy="128" r="4"></circle>
+            <circle id="C2" stroke="#0000FF" stroke-width="3" cx="128" cy="128" r="52.5"></circle>
+        </g>
+    </g>
+</svg>
